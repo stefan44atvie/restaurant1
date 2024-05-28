@@ -1,0 +1,105 @@
+* { padding: 0; margin: 0; }
+
+.body_reserve{
+    background: url('../media/background/beisl_start.jpeg') no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size:100% 100%;
+    justify-content:center;
+}
+
+#reserve_grid{
+    margin-top:30px;
+    display:grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items:center;
+    // padding-left:10px;
+    grid-gap:15px;
+    // background-color: aquamarine;
+
+    #reserve_box{
+        margin-top:60px;
+        // margin-left:30%;
+        grid-column:2/span 1;
+        min-height:min-content;
+        padding:10px;
+
+        .create_reserve{
+            display:grid;
+            grid-template-columns: 50% 25% 25%;
+            grid-gap:10px;
+            text-align: left;
+            // max-width: max-content;
+            padding-left:10px;
+            margin-right:20px;
+        
+            .cust_name{
+                grid-column:1/span 3;
+            }
+            .reserve_date{
+                grid-column:1/span 1;
+            }
+            .reserve_timehour{
+                grid-column:2/span 1;
+            }
+            .reserve_timeminute{
+                grid-column:3/span 1;
+        
+            }
+            .reserve_personen{
+                grid-column:1/span 1;
+        
+            }
+            .reserve_rueckruf{
+                grid-column:2/span 2;
+            }
+            .reserve_contactemail{
+                grid-column:1/span 3;
+            }
+            .reserve_comment{
+                grid-column:1/span 3;
+            }
+            .reserve_checkbox{
+                grid-column:1/span 3;
+            }
+            .reserve_submitbutton{
+                grid-column:1/span 3;
+            }
+            .reserve_checkbox_dsgvo{
+                grid-column:1/span 3;
+            }
+        }
+    }
+}
+
+@media only screen          //LANDSCAPE TABLETS
+    and (min-width:768px)
+    and (orientation:landscape) { 
+        
+        #reserve_grid{
+            margin-top:30px;
+            // display:grid;
+            grid-template-columns: 2% 93% 5%;
+            align-items:center;
+            // padding-left:10px;
+            grid-gap:15px;
+        }
+    }
+
+
+//Startseite Medium Displays LANDSCAPE
+@media only screen 
+    and (min-width:1200px)
+    and (orientation:landscape) { 
+
+
+        #reserve_grid{
+            margin-top:30px;
+            display:grid;
+            grid-template-columns: 10% 80% 10%;
+            align-items:center;
+        }
+        
+    }
+

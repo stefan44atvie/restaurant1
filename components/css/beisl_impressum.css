@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body_impressum {
+  background: url("../media/background/beisl_start.jpeg") no-repeat center fixed;
+  background-size: 100% 100%;
+  justify-content: center;
+}
+
+.infobox_impressum {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  align-items: center;
+  margin-top: 100px;
+  height: 500px;
+  overflow: scroll;
+}
+.infobox_impressum .left {
+  grid-column: 1/span 1;
+}
+.infobox_impressum .main_box {
+  grid-column: 2/span 1;
+  padding: 10px;
+}
+.infobox_impressum .main_box p {
+  color: white;
+}
+.infobox_impressum .main_box .bold {
+  font-weight: bold;
+}
+.infobox_impressum .right {
+  grid-column: 3/span 1;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .infobox_impressum {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    margin-top: 100px;
+    height: 60vh;
+    overflow: scroll;
+  }
+  .infobox_impressum .left {
+    grid-column: 1/span 1;
+  }
+  .infobox_impressum .main_box {
+    grid-column: 2/span 1;
+    padding: 10px;
+  }
+  .infobox_impressum .main_box p {
+    color: white;
+  }
+  .infobox_impressum .main_box .bold {
+    font-weight: bold;
+  }
+  .infobox_impressum .right {
+    grid-column: 3/span 1;
+  }
+}
+@media only screen and (max-width: 932px) and (orientation: landscape) {
+  .infobox_impressum {
+    display: grid;
+    grid-template-columns: 15% 65% 20%;
+    align-items: center;
+    margin-top: 100px;
+    height: 60vh;
+    overflow: scroll;
+    margin-bottom: 10px;
+  }
+  .infobox_impressum .left {
+    grid-column: 1/span 1;
+  }
+  .infobox_impressum .main_box {
+    grid-column: 2/span 1;
+    padding: 10px;
+  }
+  .infobox_impressum .main_box p {
+    color: white;
+  }
+  .infobox_impressum .main_box .bold {
+    font-weight: bold;
+  }
+  .infobox_impressum .right {
+    grid-column: 3/span 1;
+  }
+}
+@media only screen and (min-width: 933px) and (orientation: landscape) {
+  .infobox_impressum {
+    display: grid;
+    grid-template-columns: 15% 65% 20%;
+    align-items: center;
+    margin-top: 100px;
+    height: 60vh;
+    overflow: scroll;
+    margin-bottom: 10px;
+  }
+  .infobox_impressum .left {
+    grid-column: 1/span 1;
+  }
+  .infobox_impressum .main_box {
+    grid-column: 2/span 1;
+    padding: 10px;
+  }
+  .infobox_impressum .main_box p {
+    color: white;
+  }
+  .infobox_impressum .main_box .bold {
+    font-weight: bold;
+  }
+  .infobox_impressum .right {
+    grid-column: 3/span 1;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .infobox_impressum {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: center;
+    margin-top: 100px;
+    height: 60vh;
+    overflow: scroll;
+    margin-bottom: 10px;
+  }
+  .infobox_impressum .left {
+    grid-column: 1/span 1;
+  }
+  .infobox_impressum .main_box {
+    grid-column: 2/span 1;
+    padding: 10px;
+  }
+  .infobox_impressum .main_box p {
+    color: white;
+  }
+  .infobox_impressum .main_box .bold {
+    font-weight: bold;
+  }
+  .infobox_impressum .right {
+    grid-column: 3/span 1;
+  }
+}/*# sourceMappingURL=beisl_impressum.css.map */

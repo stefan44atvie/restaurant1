@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body_contact {
+  background: url("../media/background/beisl_start.jpeg") no-repeat center fixed;
+  background-size: 100% 100%;
+}
+
+#openhours_grid {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 10% 90% 0%;
+  align-items: center;
+  grid-gap: 10px;
+}
+#openhours_grid #openhours_box {
+  margin-top: 60px;
+  grid-column: 2/span 1;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 10px;
+}
+#openhours_grid #openhours_box .hourscontact_grid {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 55px 55px auto;
+  grid-gap: 10px;
+}
+#openhours_grid #openhours_box .hourscontact_grid .oeffnungszeiten {
+  grid-column: 1/span 1;
+  grid-row: 1/span 1;
+  color: green;
+}
+#openhours_grid #openhours_box .hourscontact_grid .contactfield {
+  grid-column: 1/span 1;
+  grid-row: 2/span 1;
+  color: green;
+}
+#openhours_grid #openhours_box .hourscontact_grid .hourscontact_inhalt {
+  grid-column: 2/span 1;
+  grid-row: 1/span 3;
+  color: blue;
+}
+#openhours_grid #openhours_box .hourscontact_grid .hourscontact_inhalt #openhours_field {
+  display: block;
+}
+#openhours_grid #openhours_box .hourscontact_grid .hourscontact_inhalt #contact_field {
+  display: none;
+}
+
+@media only screen and (min-width: 393px) and (orientation: portrait) {
+  #openhours_grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 10% 75% 15%;
+    align-items: center;
+    grid-gap: 15px;
+  }
+  #openhours_grid #openhours_box {
+    margin-top: 60px;
+    grid-column: 2/span 1;
+    min-height: -moz-min-content;
+    min-height: min-content;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  #openhours_grid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    align-items: center;
+    grid-gap: 10px;
+  }
+  #openhours_grid #openhours_box .hourscontact_grid .hourscontact_inhalt #openhours_field {
+    display: block;
+  }
+  #openhours_grid #openhours_box .hourscontact_grid .hourscontact_inhalt #contact_field {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  #openhours_grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    align-items: center;
+    grid-gap: 15px;
+  }
+  #openhours_grid #openhours_box {
+    margin-top: 60px;
+    grid-column: 2/span 1;
+    min-height: -moz-min-content;
+    min-height: min-content;
+    padding: 10px;
+  }
+  #openhours_grid #openhours_box .hourscontact_grid {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 55px 55px auto;
+    grid-gap: 10px;
+  }
+  #openhours_grid #openhours_box .hourscontact_grid .oeffnungszeiten {
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+    background-color: aqua;
+    color: white;
+  }
+  #openhours_grid #openhours_box .hourscontact_grid .contactfield {
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+    background-color: bisque;
+    color: blue;
+  }
+  #openhours_grid #openhours_box .hourscontact_grid .hourscontact_inhalt {
+    grid-column: 2/span 1;
+    grid-row: 1/span 3;
+    background-color: aquamarine;
+    color: blue;
+  }
+}/*# sourceMappingURL=beisl_contactpage.css.map */

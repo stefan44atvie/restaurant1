@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body_reserve {
+  background: url("../media/background/beisl_start.jpeg") no-repeat center fixed;
+  background-size: 100% 100%;
+  justify-content: center;
+}
+
+#reserve_grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  align-items: center;
+  grid-gap: 15px;
+}
+#reserve_grid #reserve_box {
+  margin-top: 60px;
+  grid-column: 2/span 1;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 10px;
+}
+#reserve_grid #reserve_box .create_reserve {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-gap: 10px;
+  text-align: left;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+#reserve_grid #reserve_box .create_reserve .cust_name {
+  grid-column: 1/span 3;
+}
+#reserve_grid #reserve_box .create_reserve .reserve_date {
+  grid-column: 1/span 1;
+}
+#reserve_grid #reserve_box .create_reserve .reserve_timehour {
+  grid-column: 2/span 1;
+}
+#reserve_grid #reserve_box .create_reserve .reserve_timeminute {
+  grid-column: 3/span 1;
+}
+#reserve_grid #reserve_box .create_reserve .reserve_personen {
+  grid-column: 1/span 1;
+}
+#reserve_grid #reserve_box .create_reserve .reserve_rueckruf {
+  grid-column: 2/span 2;
+}
+#reserve_grid #reserve_box .create_reserve .reserve_contactemail {
+  grid-column: 1/span 3;
+}
+#reserve_grid #reserve_box .create_reserve .reserve_comment {
+  grid-column: 1/span 3;
+}
+#reserve_grid #reserve_box .create_reserve .reserve_checkbox {
+  grid-column: 1/span 3;
+}
+#reserve_grid #reserve_box .create_reserve .reserve_submitbutton {
+  grid-column: 1/span 3;
+}
+#reserve_grid #reserve_box .create_reserve .reserve_checkbox_dsgvo {
+  grid-column: 1/span 3;
+}
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  #reserve_grid {
+    margin-top: 30px;
+    grid-template-columns: 2% 93% 5%;
+    align-items: center;
+    grid-gap: 15px;
+  }
+}
+@media only screen and (min-width: 1200px) and (orientation: landscape) {
+  #reserve_grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+  }
+}/*# sourceMappingURL=beisl_reservierung.css.map */

@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body_events {
+  background: url("../media/background/beisl_start.jpeg") no-repeat center fixed;
+  background-size: 100% 100%;
+  justify-content: center;
+}
+
+#infobox_events {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  align-items: center;
+  margin-top: 60px;
+  height: 600px;
+  overflow: scroll;
+}
+#infobox_events .left {
+  grid-column: 1/span 1;
+}
+#infobox_events .main_box {
+  grid-column: 2/span 1;
+  padding: 10px;
+  margin-top: 60px;
+}
+#infobox_events .main_box .events_scroll {
+  padding-top: 20px;
+  height: 400px;
+  overflow: scroll;
+}
+#infobox_events .right {
+  grid-column: 3/span 1;
+}/*# sourceMappingURL=beisl_events.css.map */

@@ -1,0 +1,384 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body_contact {
+  background: url("../media/background/beisl_start.jpeg") no-repeat center fixed;
+  background-size: 100% 100%;
+}
+
+.contact_fenster {
+  margin-top: 100px;
+  padding-left: 15%;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  justify-content: center;
+}
+.contact_fenster .contact_box {
+  padding: 10px;
+  width: 95%;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  padding-bottom: 15px;
+  background: hsla(0, 0%, 0%, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+  overflow: scroll;
+  border-radius: 15px;
+}
+.contact_fenster .contact_box .contact_text {
+  color: red;
+}
+.contact_fenster .contact_box #contact_grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50px auto;
+  grid-gap: 10px;
+}
+.contact_fenster .contact_box #contact_grid .contact_addresse {
+  grid-column: 1/span 1;
+  border-right: 2px dotted white;
+  text-align: center;
+  padding: 10px;
+}
+.contact_fenster .contact_box #contact_grid .contact_anfahrt {
+  grid-column: 2/span 1;
+  text-align: center;
+  padding: 10px;
+}
+.contact_fenster .contact_box #contact_grid .contact_openhours {
+  grid-column: 1/span 1;
+  text-align: center;
+  padding: 10px;
+}
+.contact_fenster .contact_box #contact_grid .contact_contact {
+  grid-column: 4/span 1;
+  text-align: center;
+  padding: 10px;
+}
+.contact_fenster .contact_box #contact_grid .contact_inhalt {
+  grid-column: 1/span 4;
+  grid-row: 2/span 1;
+  width: 100%;
+  padding-top: 10px;
+}
+.contact_fenster .contact_box #contact_grid .contact_inhalt #address_inhalt {
+  display: block;
+}
+.contact_fenster .contact_box #contact_grid .contact_inhalt #anfahrt_inhalt {
+  display: none;
+}
+.contact_fenster .contact_box #contact_grid .contact_inhalt #anfahrt_inhalt .google_maps iframe {
+  width: 100%;
+  padding: 5px;
+}
+.contact_fenster .contact_box #contact_grid .contact_inhalt #openhours_inhalt {
+  display: none;
+}
+.contact_fenster .contact_box #contact_grid .contact_inhalt #contact_inhalt {
+  display: none;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .contact_fenster {
+    margin-top: 100px;
+    padding-left: 15%;
+    min-height: -moz-min-content;
+    min-height: min-content;
+    justify-content: center;
+  }
+  .contact_fenster .contact_box {
+    padding: 10px;
+    width: 87%;
+    max-height: -moz-max-content;
+    max-height: max-content;
+    padding-bottom: 15px;
+    background: hsla(0, 0%, 0%, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    overflow: scroll;
+    border-radius: 15px;
+  }
+  .contact_fenster .contact_box .contact_text {
+    color: red;
+  }
+  .contact_fenster .contact_box #contact_grid {
+    display: grid;
+    grid-template-columns: 35% 35% auto;
+    grid-template-rows: 50px auto;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_addresse {
+    grid-column: 1/span 1;
+    border-right: 2px dotted white;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_anfahrt {
+    grid-column: 2/span 1;
+    border-right: 2px dotted white;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_openhours {
+    grid-column: 3/span 1;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_contact {
+    grid-column: 4/span 1;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt {
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #address_inhalt {
+    display: block;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #anfahrt_inhalt {
+    display: none;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #anfahrt_inhalt .google_maps {
+    padding-left: 1%;
+    padding-right: 5px;
+    width: 70vw;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #openhours_inhalt {
+    display: none;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #contact_inhalt {
+    display: none;
+  }
+}
+@media only screen and (max-width: 932px) and (orientation: landscape) {
+  .contact_fenster {
+    margin-top: 100px;
+    padding-left: 10%;
+    min-height: -moz-min-content;
+    min-height: min-content;
+    justify-content: center;
+  }
+  .contact_fenster .contact_box {
+    padding: 10px;
+    width: 85%;
+    max-height: -moz-max-content;
+    max-height: max-content;
+    padding-bottom: 15px;
+    background: hsla(0, 0%, 0%, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    overflow: scroll;
+    border-radius: 15px;
+  }
+  .contact_fenster .contact_box .contact_text {
+    color: red;
+  }
+  .contact_fenster .contact_box #contact_grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 50px auto;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_addresse {
+    grid-column: 1/span 1;
+    border-right: 2px dotted white;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_anfahrt {
+    grid-column: 2/span 1;
+    border-right: 2px dotted white;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_openhours {
+    grid-column: 3/span 1;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_contact {
+    grid-column: 4/span 1;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt {
+    grid-column: 1/span 3;
+    grid-row: 2/span 1;
+    width: 100%;
+    padding-top: 10px;
+    text-align: left;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #address_inhalt {
+    display: block;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #anfahrt_inhalt {
+    display: none;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #anfahrt_inhalt .google_maps {
+    width: 70vw;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #anfahrt_inhalt .google_maps iframe {
+    width: 100%;
+    padding: 5px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #openhours_inhalt {
+    display: none;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #contact_inhalt {
+    display: none;
+  }
+}
+@media only screen and (min-width: 933px) and (orientation: landscape) {
+  .contact_fenster {
+    margin-top: 100px;
+    padding-left: 25%;
+    min-height: -moz-min-content;
+    min-height: min-content;
+    justify-content: center;
+  }
+  .contact_fenster .contact_box {
+    padding: 10px;
+    width: 63%;
+    max-height: -moz-max-content;
+    max-height: max-content;
+    padding-bottom: 15px;
+    background: hsla(0, 0%, 0%, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    overflow: scroll;
+    border-radius: 15px;
+  }
+  .contact_fenster .contact_box .contact_text {
+    color: red;
+  }
+  .contact_fenster .contact_box #contact_grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 50px auto;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_addresse {
+    grid-column: 1/span 1;
+    border-right: 2px dotted white;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_anfahrt {
+    grid-column: 2/span 1;
+    border-right: 2px dotted white;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_openhours {
+    grid-column: 3/span 1;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_contact {
+    grid-column: 4/span 1;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt {
+    grid-column: 1/span 3;
+    grid-row: 2/span 1;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #address_inhalt {
+    display: block;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #anfahrt_inhalt {
+    display: none;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #anfahrt_inhalt .google_maps {
+    width: 45vw;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #openhours_inhalt {
+    display: none;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #contact_inhalt {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .contact_fenster {
+    margin-top: 100px;
+    padding-left: 25%;
+    min-height: -moz-min-content;
+    min-height: min-content;
+    justify-content: center;
+  }
+  .contact_fenster .contact_box {
+    padding: 10px;
+    width: 63%;
+    max-height: -moz-max-content;
+    max-height: max-content;
+    padding-bottom: 15px;
+    background: hsla(0, 0%, 0%, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    overflow: scroll;
+    border-radius: 15px;
+  }
+  .contact_fenster .contact_box .contact_text {
+    color: red;
+  }
+  .contact_fenster .contact_box #contact_grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 50px auto;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_addresse {
+    grid-column: 1/span 1;
+    border-right: 2px dotted white;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_anfahrt {
+    grid-column: 2/span 1;
+    border-right: 2px dotted white;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_openhours {
+    grid-column: 3/span 1;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_contact {
+    grid-column: 4/span 1;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt {
+    grid-column: 1/span 3;
+    grid-row: 2/span 1;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #address_inhalt {
+    display: block;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #anfahrt_inhalt {
+    display: none;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #anfahrt_inhalt .google_maps {
+    width: 45vw;
+    padding: 10px;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #openhours_inhalt {
+    display: none;
+  }
+  .contact_fenster .contact_box #contact_grid .contact_inhalt #contact_inhalt {
+    display: none;
+  }
+}/*# sourceMappingURL=beisl_contactbox.css.map */

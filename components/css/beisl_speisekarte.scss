@@ -1,0 +1,190 @@
+* { padding: 0; margin: 0; }
+
+.body_speisen{
+    background: url('../media/background/beisl_start.jpeg') no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size:100% 100%;
+}
+
+#speisekarte_fenster{
+    .menucards{
+        margin-top:70px;
+        // padding-top:100px;
+        // background-color: red;
+        min-height:min-content;
+        justify-content:center;
+
+        .speisekarte_box{
+            padding-top:10px;
+            width:95%;
+            height:500px;
+            // background-color: aqua;
+                
+        }
+    } 
+}
+
+
+@media only screen          //LANDSCAPE TABLETS
+    and (min-width:768px)
+    and (orientation:landscape) { 
+       
+        #speisekarte_fenster{
+            .menucards{
+                margin-top:70px;
+                // padding-top:100px;
+                // background-color: red;
+                min-height:min-content;
+                justify-content:center;
+        
+                .speisekarte_box{
+                    padding-top:10px;
+                    width:50%;
+                    height:600px;
+                    // background-color: aqua;
+                        
+                }
+            } 
+        }
+    }
+
+    @media only screen  //PORTRAIT TABLET
+    and (min-width:760px)
+    and (orientation:portrait) { 
+        
+        #speisekarte_fenster{
+            .menucards{
+                margin-top:70px;
+                // padding-top:100px;
+                // background-color: red;
+                min-height:min-content;
+                justify-content:center;
+        
+                .speisekarte_box{
+                    padding-top:10px;
+                    width:70%;
+                    height:800px;
+                    // background-color: aqua;
+                        
+                }
+            } 
+        }
+    }
+
+    @media only screen  //LANDSCAPE SMARTPHONE
+    and (max-width: 950px) 
+    and (orientation: landscape) { 
+
+        #speisekarte_fenster{
+            .menucards{
+                margin-top:70px;
+                // padding-top:100px;
+                // background-color: red;
+                min-height:min-content;
+                justify-content:center;
+        
+                .speisekarte_box{
+                    padding-top:10px;
+                    width:60%;
+                    height:250px;
+                    // background-color: aqua;
+                        
+                }
+            } 
+        }
+
+    }
+
+    //Startseite Medium Displays LANDSCAPE
+    @media only screen 
+        and (min-width:1200px)
+        and (orientation:landscape) { 
+          
+            #speisekarte_fenster{
+                .left_menu{
+                    // width:20%;
+                    // background-color: black;
+                    // min-height:100vh;
+                    // padding-top:5%;
+                    // padding-bottom:20px;
+                    // text-align: left;
+                    // border-right:1px solid black;
+                    // position:fixed;
+                    display:list-item;
+                    // background-color: antiquewhite;
+                }
+                .main_window{
+                    // width:80%;
+                    // min-height:100vh;
+                    // margin-left:20%;
+                    // margin-top:4%;
+                    // // background-color: lightcyan;
+                    // // padding-top:6%;
+                    // padding-left:10px;  
+                    // padding-right:10px;
+                    // background-color: aqua;
+            
+                    .menucards{
+                        padding-top:0%;
+                        // margin-top:0%;
+                        // background-color: white;
+                        // min-height:min-content;
+                        justify-content:center;
+            
+                        .speisekarte_box{
+                                margin-top:1%;
+                                width:60%;
+                                height:700px;
+                        }
+                    }
+                    
+                }
+            }
+
+
+        }
+//             .menucards{
+//                 margin-top:15%;
+    
+//                 #speisekarte{
+//                     iframe{
+//                         margin-top:14%;
+//                     }
+//                 }
+//             }
+//         //     #speisekarte_fenster{
+//         //         .left_menu{
+//         //             // width:20%;
+//         //             // background-color: black;
+//         //             // min-height:100vh;
+//         //             // padding-top:5%;
+//         //             // padding-bottom:20px;
+//         //             // text-align: left;
+//         //             // border-right:1px solid black;
+//         //             // position:fixed;
+//         //             // background-color: antiquewhite;
+//         //         }
+//         //         .main_window{
+//         //             // width:80%;
+//         //             // min-height:100vh;
+//         //             // margin-left:20%;
+//         //             // margin-top:4%;
+//         //             // // background-color: lightcyan;
+//         //             // // padding-top:6%;
+//         //             // padding-left:10px;  
+//         //             // padding-right:10px;
+//         //             background-color: aqua;
+            
+//         //             #speisekarte{
+//         //                 margin-top:6%;
+    
+//         //                 iframe{
+//         //                     margin-top:6%;
+//         //                 }
+//         //             }
+//         //         }
+            
+//         // }
+//     }

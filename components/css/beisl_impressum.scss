@@ -1,0 +1,176 @@
+* { padding: 0; margin: 0; }
+
+.body_impressum{
+    background: url('../media/background/beisl_start.jpeg') no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size:100% 100%;
+    justify-content:center;
+}
+// .imp_title{
+//     color:red !important;
+// }
+
+.infobox_impressum{
+    display:grid;
+    grid-template-columns: 15% 70% 15%;
+    align-items:center;
+    margin-top:100px;
+    height:500px;
+    overflow: scroll;
+    // word-wrap: break-word;
+    // word-break: break-all;
+
+    .left{
+        grid-column:1/span 1;
+    }
+    .main_box{
+        grid-column:2/span 1;
+        padding:10px;
+        p{
+            color:white;
+        }
+        .bold{
+            font-weight: bold;
+        }
+    }
+    .right{
+        grid-column:3/span 1;
+    }
+}
+
+//Media Query TABLET PORTRAIT
+@media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px)
+    and (orientation : portrait) { 
+
+        .infobox_impressum{
+            display:grid;
+            grid-template-columns: 20% 60% 20%;
+            align-items:center;
+            margin-top:100px;
+            height:60vh;
+            overflow: scroll;
+        
+            .left{
+                grid-column:1/span 1;
+            }
+            .main_box{
+                grid-column:2/span 1;
+                padding:10px;
+                p{
+                    color:white;
+                }
+                .bold{
+                    font-weight: bold;
+                }
+            }
+            .right{
+                grid-column:3/span 1;
+            }
+        }
+
+    }
+
+//Media Query LANDSACAPE SMARTPHONES
+@media only screen 
+    and (max-width:932px)
+    and (orientation:landscape) { 
+
+        .infobox_impressum{
+            display:grid;
+            grid-template-columns: 15% 65% 20%;
+            align-items:center;
+            margin-top:100px;
+            height:60vh;
+            overflow: scroll;
+            margin-bottom:10px;
+        
+            .left{
+                grid-column:1/span 1;
+            }
+            .main_box{
+                grid-column:2/span 1;
+                padding:10px;
+                p{
+                    color:white;
+                }
+                .bold{
+                    font-weight: bold;
+                }
+            }
+            .right{
+                grid-column:3/span 1;
+            }
+        }
+
+    }
+
+//Media Query LANDSCAPE TABLETS
+@media only screen 
+    and (min-width:933px)
+    and (orientation:landscape) { 
+
+    .infobox_impressum{
+        display:grid;
+        grid-template-columns: 15% 65% 20%;
+        align-items:center;
+        margin-top:100px;
+        height:60vh;
+        overflow: scroll;
+        margin-bottom:10px;
+    
+        .left{
+            grid-column:1/span 1;
+        }
+        .main_box{
+            grid-column:2/span 1;
+            padding:10px;
+            p{
+                color:white;
+            }
+            .bold{
+                font-weight: bold;
+            }
+        }
+        .right{
+            grid-column:3/span 1;
+        }
+    }
+
+}
+
+//LARGE screens
+@media only screen 
+   and (min-width:1400px) {
+
+    .infobox_impressum{
+        display:grid;
+        grid-template-columns: 25% 50% 25%;
+        align-items:center;
+        margin-top:100px;
+        height:60vh;
+        overflow: scroll;
+        margin-bottom:10px;
+    
+        .left{
+            grid-column:1/span 1;
+        }
+        .main_box{
+            grid-column:2/span 1;
+            padding:10px;
+            p{
+                color:white;
+            }
+            .bold{
+                font-weight: bold;
+            }
+        }
+        .right{
+            grid-column:3/span 1;
+        }
+    }
+
+   }

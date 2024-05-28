@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body_admin {
+  background: url("../media/background/beisl_start.jpeg") no-repeat center fixed;
+  background-size: 100% 100%;
+}
+
+.dashboard_undertext {
+  text-decoration: none;
+  font-size: 17px;
+  color: #7f8c9b;
+  line-height: 1.5;
+  margin: 20px 0 40px;
+}
+
+#upload_box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  padding: 10px;
+  grid-gap: 10px;
+}
+#upload_box #weeklymenu {
+  grid-column: 1/span 1;
+}
+#upload_box #standardmenu {
+  grid-column: 2/span 1;
+}
+#upload_box #uploadweekly {
+  grid-column: 1/span 1;
+}
+#upload_box #uploadstandard {
+  grid-column: 2/span 1;
+}
+
+.upload_gridbox {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 98%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.upload_gridbox .titledash {
+  grid-column: 1/span 2;
+}
+.upload_gridbox .dashboard_text {
+  grid-column: 1/span 2;
+}
+.upload_gridbox .uploadweekly {
+  grid-column: 1/span 2;
+}
+.upload_gridbox .uploadStandard {
+  grid-column: 1/span 2;
+}
+.upload_gridbox .uploadButton_wochenkarte {
+  grid-column: 1/span 2;
+}
+.upload_gridbox .uploadButton_speisekarte {
+  grid-column: 1/span 2;
+}
+
+#infobox_texte {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  align-items: center;
+  margin-top: 80px;
+  height: 600px;
+}
+#infobox_texte .left {
+  grid-column: 1/span 1;
+}
+#infobox_texte .main_box {
+  grid-column: 2/span 1;
+  padding: 10px;
+}
+#infobox_texte .main_box .texte_scroll {
+  padding-top: 20px;
+  height: 500px;
+  overflow: scroll;
+}
+#infobox_texte .right {
+  grid-column: 3/span 1;
+}
+
+#createtext_gridbox {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 98%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+#createtext_gridbox .title {
+  grid-column: 1/span 2;
+}
+#createtext_gridbox .dashboard_text {
+  grid-column: 1/span 2;
+}
+#createtext_gridbox .textart {
+  grid-column: 1/span 2;
+}
+#createtext_gridbox .text_text {
+  grid-column: 1/span 2;
+}
+#createtext_gridbox .createTextButton {
+  grid-column: 1/span 2;
+}
+
+.createevent_box {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  align-items: center;
+  margin-top: 80px;
+  height: 500px;
+}
+.createevent_box .d_left {
+  grid-column: 1/span 1;
+}
+.createevent_box .d_main_box {
+  grid-column: 2/span 1;
+}
+.createevent_box .d_right {
+  grid-column: 3/span 1;
+}
+
+.input_title {
+  padding: 5px;
+  padding-right: 10px;
+}
+
+.createevent_gridbox {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 98%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.createevent_gridbox .title {
+  grid-column: 1/span 2;
+}
+.createevent_gridbox .dashboard_text {
+  grid-column: 1/span 2;
+}
+.createevent_gridbox .eventname {
+  grid-column: 1/span 2;
+}
+.createevent_gridbox .eventname h3 {
+  padding-left: 5px;
+}
+.createevent_gridbox .eventdate {
+  grid-column: 1/span 1;
+}
+.createevent_gridbox .eventtime {
+  grid-column: 2/span 1;
+}
+.createevent_gridbox .eventpic {
+  grid-column: 1/span 2;
+}
+.createevent_gridbox .eventdetails {
+  grid-column: 1/span 2;
+}
+.createevent_gridbox .uploadButton_speisekarte {
+  grid-column: 1/span 2;
+}
+
+.titel_dashboard {
+  text-align: center;
+}
+
+.text_dashboard {
+  padding: 10px;
+  text-align: center;
+}
+
+.dashboard_box {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  align-items: center;
+  margin-top: 60px;
+  height: 500px;
+}
+.dashboard_box .d_left {
+  grid-column: 1/span 1;
+}
+.dashboard_box .d_main_box {
+  grid-column: 2/span 1;
+  margin-top: 30px;
+}
+.dashboard_box .d_right {
+  grid-column: 3/span 1;
+}
+
+.act_login_grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 15px;
+}
+.act_login_grid .mail_box {
+  grid-column: 1/span 1;
+}
+.act_login_grid .password_box {
+  grid-column: 1/span 1;
+}
+.act_login_grid .button_box {
+  grid-column: 1/span 1;
+}
+
+.login_grid {
+  display: grid;
+  grid-template-columns: 10% 60% 20%;
+  align-items: center;
+  margin-top: 60px;
+  height: 500px;
+}
+.login_grid .leftb {
+  grid-column: 1/span 1;
+}
+.login_grid .main_login {
+  grid-column: 2/span 1;
+}
+.login_grid .main_login .login_box {
+  width: 300px;
+  height: 500px;
+  background-color: rgba(220, 203, 203, 0.74);
+  padding: 10px;
+}
+.login_grid .main_login .login_box h1 {
+  color: black;
+  text-align: center;
+}
+.login_grid .main_login .login_box p {
+  color: black;
+}
+.login_grid .rightb {
+  grid-column: 3/span 1;
+}
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .dashboard_box {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    margin-top: 60px;
+    height: 500px;
+  }
+  .dashboard_box .d_left {
+    grid-column: 1/span 1;
+  }
+  .dashboard_box .d_main_box {
+    grid-column: 2/span 1;
+    margin-top: 30px;
+  }
+  .dashboard_box .d_right {
+    grid-column: 3/span 1;
+  }
+  .login_grid {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    align-items: center;
+    margin-top: 60px;
+    height: 500px;
+  }
+  .login_grid .leftb {
+    grid-column: 1/span 1;
+  }
+  .login_grid .main_login {
+    grid-column: 2/span 1;
+  }
+  .login_grid .main_login .login_box {
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+  }
+  .login_grid .main_login .login_box h1 {
+    color: black;
+    text-align: center;
+  }
+  .login_grid .main_login .login_box p {
+    color: black;
+  }
+  .login_grid .rightb {
+    grid-column: 3/span 1;
+  }
+  .upload_gridbox {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+    width: 98%;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  .upload_gridbox .titledash {
+    grid-column: 1/span 2;
+  }
+  .upload_gridbox .dashboard_text {
+    grid-column: 1/span 2;
+  }
+  .upload_gridbox .uploadweekly {
+    grid-column: 1/span 1;
+    grid-row: 3/span 1;
+  }
+  .upload_gridbox .uploadButton_wochenkarte {
+    grid-column: 1/span 1;
+    grid-row: 4/span 1;
+  }
+  .upload_gridbox .uploadStandard {
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+  }
+  .upload_gridbox .uploadButton_speisekarte {
+    grid-column: 2/span 1;
+    grid-row: 4/span 1;
+  }
+}/*# sourceMappingURL=beisl_admin.css.map */

@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body_impressionen {
+  background: url("../media/background/beisl_start.jpeg") no-repeat center fixed;
+  background-size: 100% 100%;
+  justify-content: center;
+}
+
+#grid_center {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  width: 100vw;
+  align-items: center;
+  margin-top: 100px;
+}
+#grid_center .left {
+  grid-column: 1/span 1;
+}
+#grid_center .right {
+  grid-column: 3/span 1;
+}
+#grid_center .galery {
+  grid-column: 2/span 1;
+  padding: 10px;
+  height: 150px;
+}
+#grid_center .galery p {
+  font-size: 20px;
+  color: white;
+  font-style: normal;
+}
+
+#impressionen {
+  margin-top: 100px;
+  width: 80%;
+  height: 80%;
+  justify-content: center;
+}
+
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  #grid_center {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    min-height: -moz-min-content;
+    min-height: min-content;
+    width: 100vw;
+    align-items: center;
+    margin-top: 90px;
+  }
+  #grid_center .left {
+    grid-column: 1/span 1;
+  }
+  #grid_center .right {
+    grid-column: 3/span 1;
+  }
+  #grid_center .galery {
+    grid-column: 2/span 1;
+  }
+  .carousel .carousel-item {
+    height: 600px;
+  }
+  .carousel-item img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+  }
+}/*# sourceMappingURL=beisl_impressionen.css.map */

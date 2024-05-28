@@ -1,0 +1,380 @@
+* { padding: 0; margin: 0; }
+
+
+//Allgemein
+.body_admin{
+    background: url('../media/background/beisl_start.jpeg') no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size:100% 100%;
+}
+
+.dashboard_undertext{
+    text-decoration: none;
+    font-size: 17px;
+    color: #7f8c9b;
+    line-height: 1.5;
+    margin: 20px 0 40px;
+  }
+
+//Upload Speisekarten - Abschnitt
+#upload_box{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width:100%;
+    padding:10px;
+    grid-gap:10px;
+
+    #weeklymenu{
+        grid-column:1/span 1;
+        // background-color: aliceblue;
+    }
+    #standardmenu{
+        grid-column:2/span 1;
+        // background-color: aqua;
+    }
+    #uploadweekly{
+        grid-column:1/span 1;
+    }
+    #uploadstandard{
+        grid-column:2/span 1;
+    }
+
+}
+
+.upload_gridbox{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width:98%;
+    grid-gap:10px;
+    padding:10px;
+
+    .titledash{
+        grid-column:1/span 2;
+    }
+    .dashboard_text{
+        grid-column:1/span 2;
+    }
+    .uploadweekly{
+        grid-column:1/span 2;
+        // padding-left:10px;
+    }
+    .uploadStandard{
+        grid-column:1/span 2;
+        // padding-right:10px;
+        // padding-
+    }
+    .uploadButton_wochenkarte{
+        grid-column:1/span 2;
+    }
+    .uploadButton_speisekarte{
+        grid-column:1/span 2;
+    }
+
+}
+
+//ENDE
+
+//Abschnitt Texte 
+#infobox_texte{
+    display:grid;
+    grid-template-columns: 5% 90% 5%;
+    align-items:center;
+    margin-top:80px;
+    height:600px;
+    // overflow: scroll;
+
+    .left{
+        grid-column:1/span 1;
+    }
+    .main_box{
+        grid-column:2/span 1;
+        padding:10px;
+
+        .texte_scroll{
+            padding-top:20px;
+            height:500px;
+            // background-color: aqua;
+            overflow:scroll;
+        }
+        p{
+            // color:white;
+        }
+        .bold{
+            // font-weight: bold;
+        }
+    }
+    .right{
+        grid-column:3/span 1;
+    }
+}
+
+#createtext_gridbox{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width:98%;
+    grid-gap:10px;
+    padding:10px;
+
+    .title{
+        grid-column:1/span 2;
+    }
+    .dashboard_text{
+        grid-column:1/span 2;
+    }
+    .textart{
+        grid-column:1/span 2;
+        // padding-left:10px;
+    }
+    .text_text{
+        grid-column:1/span 2;
+        // padding-right:10px;
+        // padding-
+    }
+    .createTextButton{
+        grid-column:1/span 2;
+    }
+}
+//ENDE
+
+//Abschnitt CREATE Event
+
+.createevent_box{
+    display:grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items:center;
+    margin-top:80px;
+    height:500px;
+
+    .d_left{
+        grid-column:1/span 1;
+    }
+    .d_main_box{
+        grid-column:2/span 1;
+    }
+    .d_right{
+        grid-column:3/span 1;
+    }
+}
+.input_title{
+    padding:5px;
+    padding-right:10px;
+}
+.createevent_gridbox{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width:98%;
+    grid-gap:10px;
+    padding:10px;
+    // margin-top:60px;
+
+    .title{
+        grid-column:1/span 2;
+    }
+    .dashboard_text{
+        grid-column:1/span 2;
+    }
+    .eventname{
+        grid-column:1/span 2;
+        // background-color: aqua;
+        // padding:10px;
+
+        h3{
+            padding-left:5px;
+        }
+    }
+    .eventdate{
+        grid-column:1/span 1;
+        // background-color: aquamarine;
+    }
+    .eventtime{
+        grid-column:2/span 1;
+        // background-color: aquamarine;
+    }
+    .eventpic{
+        grid-column:1/span 2;
+    }
+    .eventdetails{
+        grid-column:1/span 2;
+    }
+    .uploadButton_speisekarte{
+        grid-column:1/span 2;
+        // padding:5px;
+    }
+
+}
+
+//ENDE
+
+//Abschnitt DASHBOARD
+
+.titel_dashboard{
+    text-align: center;
+    // padding:10px;
+}
+.text_dashboard{
+    padding:10px;
+    text-align: center;
+}
+.dashboard_box{
+    display:grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items:center;
+    margin-top:60px;
+    height:500px;
+
+    .d_left{
+        grid-column:1/span 1;
+    }
+    .d_main_box{
+        grid-column:2/span 1;
+        margin-top:30px;
+    }
+    .d_right{
+        grid-column:3/span 1;
+    }
+}
+//ENDE
+
+//Abschnitt LOGIN
+.act_login_grid{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-gap:15px;
+
+    .mail_box{
+        grid-column:1/span 1;
+    }
+    .password_box{
+        grid-column:1/span 1;
+    }
+    .button_box{
+        grid-column:1/span 1;
+    }
+}
+
+.login_grid{
+    display:grid;
+    grid-template-columns: 10% 60% 20%;
+    align-items:center;
+    margin-top:60px;
+    height:500px;
+
+    .leftb{
+        grid-column: 1/span 1;
+    }
+    .main_login{
+        grid-column:2/span 1;
+
+        .login_box{
+            width:300px;
+            height:500px;
+            // background-color: white;
+            background-color: rgba(220, 203, 203, 0.74);
+            ;
+            padding:10px;
+
+            h1{
+                color:black;
+                text-align: center;
+            }
+            p{
+                color:black;
+            }
+        }
+    }
+    .rightb{
+        grid-column:3/span 1;
+    }
+}
+
+
+
+@media only screen          //LANDSCAPE TABLETS
+    and (min-width:768px)
+    and (orientation:landscape) { 
+
+        .dashboard_box{
+            display:grid;
+            grid-template-columns: 10% 80% 10%;
+            align-items:center;
+            margin-top:60px;
+            height:500px;
+        
+            .d_left{
+                grid-column:1/span 1;
+            }
+            .d_main_box{
+                grid-column:2/span 1;
+                margin-top:30px;
+            }
+            .d_right{
+                grid-column:3/span 1;
+            }
+        }
+        .login_grid{
+            display:grid;
+            grid-template-columns: 40% 20% 40%;
+            align-items:center;
+            margin-top:60px;
+            height:500px;
+        
+            .leftb{
+                grid-column: 1/span 1;
+            }
+            .main_login{
+                grid-column:2/span 1;
+        
+                .login_box{
+                    width:300px;
+                    height:500px;
+                    // background-color: white;
+                    padding:10px;
+        
+                    h1{
+                        color:black;
+                        text-align: center;
+                    }
+                    p{
+                        color:black;
+                    }
+                }
+            }
+            .rightb{
+                grid-column:3/span 1;
+            }
+        }
+
+        .upload_gridbox{
+            // display:grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto auto auto auto;
+            width:98%;
+            grid-gap:10px;
+            padding:10px;
+        
+            .titledash{
+                grid-column:1/span 2;
+            }
+            .dashboard_text{
+                grid-column:1/span 2;
+            }
+            .uploadweekly{
+                grid-column:1/span 1;
+                grid-row:3/span 1;
+            }
+            .uploadButton_wochenkarte{
+                grid-column:1/span 1;
+                grid-row:4/span 1;
+            }
+            .uploadStandard{
+                grid-column:2/span 1;
+                grid-row:3/span 1;
+            }
+            .uploadButton_speisekarte{
+                grid-column:2/span 1;
+                grid-row:4/span 1;
+            }
+        }
+    }

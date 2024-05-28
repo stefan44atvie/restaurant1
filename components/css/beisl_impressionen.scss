@@ -1,0 +1,110 @@
+* { padding: 0; margin: 0; }
+
+.body_impressionen{
+    background: url('../media/background/beisl_start.jpeg') no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size:100% 100%;
+    justify-content:center;
+
+}
+
+#grid_center{
+    display:grid;
+    grid-template-columns: 5% 90% 5%;
+    min-height:min-content;
+    width:100vw;
+    align-items:center;
+    margin-top:100px;
+    
+    .left{
+        grid-column:1/span 1;
+    }
+    .right{
+        grid-column:3/span 1;
+    }
+    .galery{
+        grid-column:2/span 1;
+        // background-color: rgba(0, 0, 0, 0.5);
+        padding:10px;
+        height:150px;
+
+        // .carousel{
+        //     height:150px;
+        // }
+        p{
+            font-size:20px;
+            color:white;
+            font-style: normal;
+        }
+    }
+}
+#impressionen{
+    margin-top:100px;
+    width:80%;
+    height:80%;
+    // background-color: rgba(0, 0, 0, 0.5);
+    justify-content:center;
+
+}
+
+.carousel{
+
+    .carousel-item{
+        height: 500px;
+    }
+  }
+  .carousel-item{ 
+    img {
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 500px;
+    }
+  }
+
+  @media only screen          //LANDSCAPE TABLETS
+  and (min-width:768px)
+  and (orientation:landscape) { 
+
+    #grid_center{
+        display:grid;
+        grid-template-columns: 10% 80% 10%;
+        min-height:min-content;
+        width:100vw;
+        align-items:center;
+        margin-top:90px;
+        
+        .left{
+            grid-column:1/span 1;
+        }
+        .right{
+            grid-column:3/span 1;
+        }
+        .galery{
+            grid-column:2/span 1;
+            // background-color: rgba(0, 0, 0, 0.5);
+            // padding:10px;
+            // height:150px;
+        }
+    }
+
+    .carousel{
+
+        .carousel-item{
+            height: 600px;
+        }
+      }
+      .carousel-item{ 
+        img {
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 600px;
+        }
+      }
+
+  }

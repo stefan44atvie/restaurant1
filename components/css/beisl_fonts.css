@@ -1,0 +1,243 @@
+@font-face {
+  font-family: unBatang;
+  src: url(../fonts/UnBatang/UnBatang.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: unBatangBold;
+  src: url(../fonts/UnBatang/UnBatangBold.ttf);
+  font-display: swap;
+}
+.gen_text_contact {
+  font-family: unBatang;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+}
+
+.gen_text_bold {
+  font-family: unBatang;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.beisl_standardtitel {
+  font-family: unBatangBold;
+  color: green;
+  text-align: center;
+}
+
+.beisl_standardtext {
+  font-family: unBatang;
+  color: white;
+  text-align: center;
+}
+
+.info_title {
+  font-family: unBatangBold;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.info_content_text {
+  font-family: unBatang;
+  text-decoration: none;
+  color: white;
+}
+
+.openhours_text {
+  color: white;
+}
+
+.contact_titel {
+  font-family: unBatangBold;
+  color: green !important;
+  text-transform: uppercase;
+}
+
+#infobox_events .main_box h1 {
+  font-family: unBatangBold;
+  color: green;
+  text-align: center;
+}
+#infobox_events .main_box p {
+  color: white;
+}
+#infobox_events .main_box .bold {
+  font-weight: bold;
+}
+.welcome_text {
+  font-family: unBatang;
+}
+
+.welcome_text_abschied {
+  font-family: unBatang;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+#welcomebox h1 {
+  font-family: unBatangBold;
+  color: green;
+  font-size: 23px;
+}
+
+.titel_dashboard {
+  font-family: unBatangBold;
+  color: green;
+}
+
+.text_dashboard {
+  font-family: unBatangBold;
+  color: white;
+}
+
+.title_impressum {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.text_impressum {
+  color: white;
+}
+
+#reserve_grid #reserve_box {
+  text-align: center;
+}
+
+#infobox h5 {
+  color: green;
+  text-align: center;
+  letter-spacing: 0.5em;
+}
+#infobox h1 {
+  font-family: unBatangBold;
+  color: green;
+  text-align: center;
+}
+#infobox .welcome_text {
+  text-align: center;
+  font-family: unBatang;
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  font-style: normal;
+}
+#infobox .latest_news_title {
+  text-align: left;
+  font-family: unBatang;
+  text-decoration: none;
+  font-size: large;
+  font-style: normal;
+  color: red;
+}
+#infobox .latest_news {
+  text-align: left;
+  font-family: unBatang;
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  font-style: italic;
+}
+#infobox .latest {
+  text-align: center;
+}
+#infobox .latest p {
+  text-align: center;
+  color: white;
+}
+
+#openhours_box .openhours_title {
+  color: green;
+  text-align: center;
+}
+#openhours_box .openhours_text {
+  color: white;
+  text-align: center;
+  line-height: 2.2em;
+}
+
+.contact_text {
+  color: yellow !important;
+  text-align: center;
+}
+
+.dashboard_introtext {
+  color: white;
+}
+
+.text_admin_team {
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.upload_gridbox .uploadweekly h3 {
+  text-align: center;
+  color: green;
+}
+.upload_gridbox .uploadStandard h3 {
+  text-align: center;
+  color: green;
+}
+
+.input_title {
+  color: white !important;
+}
+
+@media only screen and (min-width: 393px) and (orientation: portrait) {
+  #openhours_box .openhours_title {
+    color: green;
+    text-align: center;
+  }
+  #openhours_box .openhours_text {
+    color: white;
+    text-align: center;
+    line-height: 2.2em;
+  }
+  #openhours_box .contact_text {
+    color: yellow;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  #welcomebox {
+    word-break: break-all;
+  }
+  #welcomebox h1 {
+    font-family: unBatangBold;
+    color: green;
+    font-size: 30px;
+    justify-content: center;
+  }
+  #infobox h1 {
+    font-family: unBatangBold;
+    color: green;
+    text-align: center;
+  }
+  #infobox .welcome_text {
+    font-style: normal;
+  }
+}
+@media only screen and (max-width: 950px) and (orientation: landscape) {
+  #infobox .latest_news_title {
+    text-align: left;
+    font-family: unBatangBold;
+    text-decoration: none;
+    font-size: large;
+    font-style: normal;
+    color: white;
+  }
+}
+@media only screen and (min-width: 1200px) and (orientation: landscape) {
+  .dashboard_box .d_main_box .text_dashboard {
+    font-size: large;
+    font-style: normal;
+  }
+}/*# sourceMappingURL=beisl_fonts.css.map */
